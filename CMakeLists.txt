@@ -13,6 +13,7 @@ add_executable(factorial "${SRC_DIR}/Factorial.c")
 add_executable(armstrong_number "${SRC_DIR}/ArmstrongNumber.c")
 add_executable(sum_of_digits "${SRC_DIR}/DigitSummation.c")
 add_executable(concatenate_string "${SRC_DIR}/StringConcatenation.c")
+add_executable(digit_frequency "${SRC_DIR}/FrequencyOfDigit.c")
 
 set(EXECUTABLES
     main
