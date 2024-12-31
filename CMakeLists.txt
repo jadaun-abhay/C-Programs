@@ -14,6 +14,7 @@ add_executable(armstrong_number "${SRC_DIR}/ArmstrongNumber.c")
 add_executable(sum_of_digits "${SRC_DIR}/DigitSummation.c")
 add_executable(concatenate_string "${SRC_DIR}/StringConcatenation.c")
 add_executable(digit_frequency "${SRC_DIR}/FrequencyOfDigit.c")
+add_executable(reverse_number "${SRC_DIR}/ReverseNumber.c")
 
 set(EXECUTABLES
     main
