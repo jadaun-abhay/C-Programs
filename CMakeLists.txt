@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.28)
 project(C_Programs)
 
 set(SRC_DIR ${CMAKE_SOURCE_DIR}/src)
+set(MATRIX_DIR ${SRC_DIR}/matrix_programs)
 
 add_executable(main "${CMAKE_SOURCE_DIR}/src/main.c")
 add_executable(fibonacci_series "${CMAKE_SOURCE_DIR}/src/FibonacciSeries.c")
@@ -16,6 +17,7 @@ add_executable(concatenate_string "${SRC_DIR}/StringConcatenation.c")
 add_executable(digit_frequency "${SRC_DIR}/FrequencyOfDigit.c")
 add_executable(reverse_number "${SRC_DIR}/ReverseNumber.c")
 add_executable(swap_numbers "${SRC_DIR}/SwapNumbers.c")
+add_executable(matrix_multiplication "${MATRIX_DIR}/MatrixMultiplication.c")
 
 set(EXECUTABLES
     main
