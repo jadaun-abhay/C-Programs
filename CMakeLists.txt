@@ -20,6 +20,7 @@ add_executable(reverse_number "${SRC_DIR}/ReverseNumber.c")
 add_executable(swap_numbers "${SRC_DIR}/SwapNumbers.c")
 add_executable(matrix_multiplication "${MATRIX_DIR}/MatrixMultiplication.c")
 add_executable(decimal_to_binary "${NUM_SYS_DIR}/DecimalToBinary.c")
+add_executable(matrix_transpose "${MATRIX_DIR}/MatrixTranspose.c")
 
 set(EXECUTABLES
     main
